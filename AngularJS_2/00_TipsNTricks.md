@@ -22,3 +22,4 @@ Run `npm install` to install the latest packages.
 - Type the command `git config --local user.name "costaIvo"`
 
 - Type the command `git config --local user.name` this will now display the new username set
+
