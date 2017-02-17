@@ -118,8 +118,8 @@ export class AppComponent{
 
 ### **Demo 4** - Refactoring Data
 
-* use templareUrl
-* use styleUrls
+* Use templareUrl
+* Use styleUrls
 * create file app.component.html
 * create file app.component.CSS
 * link files in the component decorator
