@@ -16,22 +16,25 @@
 * Create property in the application named as title
 * Create html script using interpolation to display the title
 
-```html
-    '<div><h1>{{pageTitle}}</h1></div>'
+``` typescript
    pageTitle:string = "Digital Ads : Ad Manager";
+```
+
+``` html
+    '<div><h1>{{pageTitle}}</h1></div>'
 ```
 
 * Explain about type check in TypeScript
 * Add CSS so that the head title color is changed to blue
 
-``` html
+``` css
  styles:['h1{color:blue}']
 ```
 
 * Explain about ES6 feature of using multiline code using backticks
 * Replace the styles code with multiline code
 
-``` html
+``` css
      styles:[`
      h1 {
         color: #369;
@@ -55,7 +58,7 @@
 
 * Explain about Property Binding
 
-``` TypeScript
+``` typescript
  fontColor="red";
  publication:string="Herald";
 
@@ -72,7 +75,8 @@
 * Explain the advantage of tested binding to html elements using property binding
 * Import FormsModule in `app.modules.ts` file
 
-``` TypeScript
+
+``` typescript
  //required for two-way binding
 import {FormsModule} from '@angular/forms';
 
@@ -87,6 +91,8 @@ import {FormsModule} from '@angular/forms';
     <input [(ngModel)]="publication" placeholder="Publication Name"/>
  ```
 
+
+
 ### **Demo 3** - Binding Publication data to a grid
 
 * Copy the Publications json array from api/Publications/publication.json file
@@ -94,7 +100,7 @@ import {FormsModule} from '@angular/forms';
 
 > app.component.ts
 
-``` typeScript
+``` typescript
 
 export class AppComponent{
     pageTitle:string = "Digital Ads : Ad Manager";
@@ -109,11 +115,58 @@ export class AppComponent{
         "CommissionRateForAdvertisments": 0.15,
         "CommisionRateForClassifieds": 0.059
     };
-    ```
-
+```
 
 ``` html
 
+<div>
+    <h1> {{pageTitle}}</h1>
+    <hr>
+</div>
+<label>Publication : </label>
+<span [style.color]="fontColor"> {{publication.Name}}</span>
+<br/>
+<input [(ngModel)]="publication.Name" placeholder="Publication Name" />
+<br/>
+<label>Publication List</label>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name </th>
+                <th>Type </th>
+                <th>Language </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <td>{{publication.Name}}</td>
+                <td>| {{publication.TypexCD}}</td>
+                <td>| {{publication.LanguagexCD}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+```
+
+
+* Event Bindings
+
+``` typescript
+
+    onRowClick(publication){
+        console.log("Row clicked "+publication.Name);
+    }
+ ```
+
+``` html
+..
+            <tr (click)="onRowClick(publication)">
+                <td>{{publication.Name}}</td>
+                <td>| {{publication.TypexCD}}</td>
+                <td>| {{publication.LanguagexCD}}</td>
+            </tr>
+ ..
 ```
 
 ### **Demo 4** - Refactoring Data
