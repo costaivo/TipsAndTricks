@@ -10,7 +10,7 @@
 
 ![Component](https://snag.gy/mfVROY.jpg "Component Structure")
 
-### ** Demo 1** - TypeScript,interpolation,Template('',``) & Styles
+### **Demo 1** - TypeScript,interpolation,Template('',``) & Styles
 
 * TypeScript Intro
 * Create property in the application named as title
@@ -116,7 +116,7 @@ export class AppComponent{
 
 ```
 
-### ** Demo 4** - Refactoring Data
+### **Demo 4** - Refactoring Data
 
 * use templareUrl
 * use styleUrls
