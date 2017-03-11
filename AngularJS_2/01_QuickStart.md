@@ -31,6 +31,12 @@ Explain about VS Code brief introduction to its
 - git integration
 - customization
 
+### Angular Cli demo
+
+- Angular CLI commands
+- Creating component
+- creating module
+- Running CLI app
 
 ### Running AngularJs 2 Application
 
