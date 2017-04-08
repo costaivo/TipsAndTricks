@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[Tips & Tricks : Dot Net](https://github.com/costaivo/Instructor/blob/master/DotNetCore/00_Tips%26Tricks.md)
+[Tips & Tricks : Dot Net](DotNetCore/00_Tips%26Tricks.md)
 
 You can use the [editor on GitHub](https://github.com/costaivo/Instructor/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
