@@ -1,23 +1,35 @@
-### Install Django
-easy_install django
+# Python Tips and Tricks
 
-### Create new website using Django
-django-admin startproject <<projectName>>
+## Django
 
-### Run Website
-python manage.py runserver
+1. Install Django
 
-### Create app
-python manage.py startapp <<AppName>>
+`easy_install django`
 
-### Apply Migratioins
-python manage.py migrate
+1. Create new website using Django
 
-### Make Migrations
-python manage.py makemigrations music
+`django-admin startproject <<projectName>>`
 
-### Convert to sql 
-py manage.py sqlmigrate music 0001
+1. Run Website
 
-Database API Shell
-py manage.py shell
+`python manage.py runserver`
+
+1. Create app
+
+`python manage.py startapp <<AppName>>`
+
+1. Apply Migratioins
+
+`python manage.py migrate`
+
+1. Make Migrations
+
+`python manage.py makemigrations music`
+
+1. Convert to sql
+
+`py manage.py sqlmigrate music 0001`
+
+1. Database API Shell
+
+`py manage.py shell`
