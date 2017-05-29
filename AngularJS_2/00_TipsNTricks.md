@@ -16,6 +16,14 @@
 
 - Run `npm install` to install the latest packages.
 
+### Check and Update Global npm packages
+
+- find out which packages need to be updated
+`npm outdated -g --depth=0`
+
+- To Update global package you can use 
+`npm update -g <package>:`
+
 ## Git
 
 ### Change Git config to set username locally for a project folder
