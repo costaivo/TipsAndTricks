@@ -33,3 +33,6 @@
 1. Database API Shell
 
 `py manage.py shell`
+
+1. Create SuperUser
+py manage.py createsuperuseake
