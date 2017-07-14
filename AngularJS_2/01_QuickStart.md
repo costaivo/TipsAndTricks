@@ -35,6 +35,7 @@ Explain about VS Code brief introduction to its
 
 - Angular CLI commands
 - Creating component
+- creating Service
 - creating module
 - Running CLI app
 
