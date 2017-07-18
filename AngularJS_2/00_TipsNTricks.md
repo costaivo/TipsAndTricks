@@ -33,3 +33,9 @@
 - Type the command `git config --local user.name "costaIvo"`
 
 - Type the command `git config --local user.name` this will now display the new username set
+
+
+## Install Packages Faster using Yarn
+
+`# fast install (via Yarn, https://yarnpkg.com)`
+`$ yarn install  # or yarn`
