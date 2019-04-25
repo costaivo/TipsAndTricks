@@ -8,7 +8,7 @@
 -[HTML5 Up](https://html5up.net/)
 -[Live Presentations](revealjs)
   - [all presentation at one place](https://webjeda.com/slides/)	
-  
+-[Gist revealjs](http://gist-reveal.it/#/kubernetes)  
 ## CV
 -[cv ](https://blackcurrant.jekyll-themes.com/)
 -[online cv](https://github.com/Redgadget)
