@@ -9,6 +9,7 @@
 -[Live Presentations](revealjs)
   - [all presentation at one place](https://webjeda.com/slides/)	
 -[Gist revealjs](http://gist-reveal.it/#/kubernetes)  
+[video](https://www.youtube.com/watch?v=6Spfq_fcTTE)
 ## CV
 -[cv ](https://blackcurrant.jekyll-themes.com/)
 -[online cv](https://github.com/Redgadget)
