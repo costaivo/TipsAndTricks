@@ -1,4 +1,4 @@
-# NPM Tips & Tricks
+# Heading Title
 
 ## Overview
 
@@ -6,4 +6,4 @@
 
 ## Advance
 
-### Publishing your own Package 
+### Sub Topic
