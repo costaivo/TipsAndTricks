@@ -49,9 +49,35 @@ The following shorthands are parsed on the command-line:
 
 ### Creating packages
 
-
 Create a NodeJS project
 `npm init` 
+
+Create project with default settings
+`npm init -y`
+
+Set Defaults for npm 
+`npm set init-author-name 'Costa Ivo'`
+`npm set init-license`
+
+View Defaults for npm 
+'npm get init-author-name`
+
+Remove config
+`npm config delete init-author-name`
+
+### Installing packages
+
+npm install <<packageName>>
+
+npm install <<packageName>> --save
+npm install <<packageName>> -S
+
+npm install <<packageName>> --save-dev
+npm install <<packageName>> -D
+
+
+https://app.pluralsight.com/player?course=npm-playbook&author=joe-eames&name=npm-playbook-m1&clip=8&mode=live
+
 
 ## Advance
 
