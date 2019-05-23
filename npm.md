@@ -67,13 +67,13 @@ Remove config
 
 ### Installing packages
 
-npm install <<packageName>>
+npm install [packageName]
 
-npm install <<packageName>> --save
-npm install <<packageName>> -S
+npm install [packageName] --save
+npm install [packageName] -S
 
-npm install <<packageName>> --save-dev
-npm install <<packageName>> -D
+npm install [packageName] --save-dev
+npm install [packageName] -D
 
 
 https://app.pluralsight.com/player?course=npm-playbook&author=joe-eames&name=npm-playbook-m1&clip=8&mode=live
