@@ -10,6 +10,7 @@ Node Package Manger (NPM) is a package manager used with NodeJS
 `npm -h`
 
 To know in detail about a command 
+`npm install -h`
 
 To view the documentation on the command
 `npm help install`
@@ -46,9 +47,9 @@ The following shorthands are parsed on the command-line:
 - -n: --yes false
 - ll and la commands: ls --long
 
+### Creating packages
 
 
-`npm install -h`
 Create a NodeJS project
 `npm init` 
 
