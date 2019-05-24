@@ -27,3 +27,6 @@
 ## APP ideas
 - Create a stock ticker app 
 [intrinio](https://docs.intrinio.com/tutorial/web_api)
+
+
+[A list of public api's](https://github.com/toddmotto/public-apis)
