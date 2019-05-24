@@ -22,3 +22,8 @@
 ## ToDo
 - Create seperate folders for Angular,React,NodeJS etc to capture notes as you learn new tech
 - https://www.screenleap.com
+
+
+## APP ideas
+- Create a stock ticker app 
+[intrinio](https://docs.intrinio.com/tutorial/web_api)
