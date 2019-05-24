@@ -18,6 +18,13 @@ To view the documentation on the command
 To view the list of all help topics 
 `npm help-search remove`
 
+List all user config
+`npm config ls`
+
+list all config values
+`npm config ls -l`
+
+
 ### [NPM Shortcuts](https://docs.npmjs.com/misc/config)
 
 The following shorthands are parsed on the command-line:
