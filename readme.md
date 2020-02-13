@@ -12,9 +12,11 @@
 -[Gist revealjs](http://gist-reveal.it/#/kubernetes)  
 [video](https://www.youtube.com/watch?v=6Spfq_fcTTE)
 ## CV
--[cv ](https://blackcurrant.jekyll-themes.com/)
--[online cv](https://github.com/Redgadget)
--[CV Theme](https://startbootstrap.com/themes/resume/)
+
+- [cv ](https://blackcurrant.jekyll-themes.com/)
+- [online cv](https://github.com/Redgadget)
+- [CV Theme](https://startbootstrap.com/themes/resume/)
+
 ## Ideas to make Training more interactive
 - IceBreaker Activity
 
