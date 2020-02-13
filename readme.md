@@ -14,7 +14,7 @@
 ## CV
 -[cv ](https://blackcurrant.jekyll-themes.com/)
 -[online cv](https://github.com/Redgadget)
-
+-[CV Theme](https://startbootstrap.com/themes/resume/)
 ## Ideas to make Training more interactive
 - IceBreaker Activity
 
