@@ -34,3 +34,7 @@
 [A list of public api's](https://github.com/toddmotto/public-apis)
 
 [song lyrics search app](https://lyricsovh.docs.apiary.io/#reference/0/lyrics-of-a-song/search?console=1)
+
+
+
+https://ma.ttias.be/pretty-git-log-in-one-line/#:~:text=By%20default%2C%20a%20git%20log%20looks%20like%20this.&text=Each%20commit%2C%20with%20the%20date,fit%20on%20a%20single%20line.
