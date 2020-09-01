@@ -15,4 +15,25 @@ Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 ``` cmd
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 ```
+4. console theme
+scoop install concfg pshazz
+concfg import solarized-dark
+
+5. Scoop Extras : Will recognize VSCODE etc
+scoop bucket add extras
+
+## Windows Terminal 
+Install the windows terminal from the windows store
+
+
+Install-Module posh-git -Scope CurrentUser
+Install-Module oh-my-posh -Scope CurrentUser
+
+Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+Then run "notepad $PROFILE" and add these lines to the end:
+
+
+https://github.com/microsoft/cascadia-code/releases
+
+
 
