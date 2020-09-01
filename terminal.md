@@ -8,7 +8,7 @@ powershell
 ```
 2. Set the Execution policy 
 ``` cmd
-Set-ExecutionPolicy RemoteSigned -scope CurrentUser'
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 ```
 
 3. Install Scoop
