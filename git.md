@@ -14,3 +14,8 @@ https://coderwall.com/p/euwpig/a-better-git-log
 ``` cmd
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 ```
+
+
+## using different Git accounts on same machine
+git config --global credential.useHttPath true
+git config --global -e
