@@ -25,14 +25,22 @@ scoop bucket add extras
 ## Windows Terminal 
 Install the windows terminal from the windows store
 
-
+```cmd
 Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
+```
 
-Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+```cmd
+Install-Module -Name PSReadLine  -Scope CurrentUser -Force -SkipPublisherCheck
+```
 Then run "notepad $PROFILE" and add these lines to the end:
 
 
+```cmd
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-Theme Paradox
+```
 https://github.com/microsoft/cascadia-code/releases
 
 
