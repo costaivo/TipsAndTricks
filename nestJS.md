@@ -10,12 +10,21 @@ npm install -g @nestjs/cli
 yarn global add @nestjs/cli
 ```
 
-## Generating Components using CLI
+## Creating new Application
 
 ``` cmd
 # Creating a new application 
 nest new training-tracker-api
 ```
+
+## Generating Components using CLI
+
+
+``` cmd
+# Creating a new application 
+nest new training-tracker-api
+```
+
 
 ## Running the project
 ``` terminal
