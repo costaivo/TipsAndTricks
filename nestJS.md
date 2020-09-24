@@ -25,6 +25,21 @@ nest new training-tracker-api
 nest new training-tracker-api
 ```
 
+Create new Module
+``` cmd
+nest g module employee
+```
+
+Create new Service
+``` cmd
+nest g service employee
+```
+
+Create new Controller
+``` cmd
+nest g controllere employee
+```
+
 
 ## Running the project
 ``` terminal
