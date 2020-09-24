@@ -37,7 +37,7 @@ nest g service employee
 
 Create new Controller
 ``` cmd
-nest g controllere employee
+nest g controller employee
 ```
 
 
