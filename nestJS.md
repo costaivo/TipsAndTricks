@@ -20,22 +20,17 @@ nest new training-tracker-api
 ## Generating Components using CLI
 
 
-``` cmd
-# Creating a new application 
-nest new training-tracker-api
-```
-
-Create new Module
+### Create new Module
 ``` cmd
 nest g module employee
 ```
 
-Create new Service
+### Create new Service
 ``` cmd
 nest g service employee
 ```
 
-Create new Controller
+### Create new Controller
 ``` cmd
 nest g controller employee
 ```
