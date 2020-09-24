@@ -42,6 +42,12 @@ nest g controller employee
 yarn add @nestjs/typeorm typeorm pg
 ```
 
+### Installing validators
+
+``` cmd 
+yarn add class-validator 
+```
+
 ## Running the project
 ``` terminal
 # run with watch enabled
