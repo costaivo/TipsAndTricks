@@ -36,6 +36,12 @@ nest g controller employee
 ```
 
 
+### Installing Typeorm & Postgres drivers
+
+``` cmd
+yarn add @nestjs/typeorm typeorm pg
+```
+
 ## Running the project
 ``` terminal
 # run with watch enabled
