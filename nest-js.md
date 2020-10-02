@@ -2,7 +2,7 @@
 
 ## Installing nestJS
 
-``` cmd
+``` shell
 # using npm 
 npm install -g @nestjs/cli
 
