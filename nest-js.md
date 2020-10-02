@@ -2,7 +2,7 @@
 
 ## Installing nestJS
 
-``` shell
+``` bash 
 # using npm 
 npm install -g @nestjs/cli
 
@@ -12,13 +12,13 @@ yarn global add @nestjs/cli
 
 ## Creating new Application
 
-``` cmd
+``` bash 
 # Creating a new application 
 nest new training-tracker-api
 ```
 
 ## Running the project
-``` terminal
+``` bash
 # run with watch enabled
 yarn start:dev
 npm start:dev
@@ -32,30 +32,30 @@ npm start
 
 
 ### Create new Module
-``` cmd
+``` bash
 nest g module employee
 ```
 
 ### Create new Service
-``` cmd
+``` bash
 nest g service employee
 ```
 
 ### Create new Controller
-``` cmd
+``` bash
 nest g controller employee
 ```
 
 
 ### Installing Typeorm & Postgres drivers
 
-``` cmd
+``` bash
 yarn add @nestjs/typeorm typeorm pg
 ```
 
 ### Installing validators
 
-``` cmd 
+``` bash 
 yarn add class-validator 
 ```
 
