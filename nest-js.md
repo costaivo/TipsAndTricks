@@ -17,6 +17,17 @@ yarn global add @nestjs/cli
 nest new training-tracker-api
 ```
 
+## Running the project
+``` terminal
+# run with watch enabled
+yarn start:dev
+npm start:dev
+
+# run without watch
+yarn start
+npm start
+```
+
 ## Generating Components using CLI
 
 
@@ -48,16 +59,7 @@ yarn add @nestjs/typeorm typeorm pg
 yarn add class-validator 
 ```
 
-## Running the project
-``` terminal
-# run with watch enabled
-yarn start:dev
-npm start:dev
 
-# run without watch
-yarn start
-npm start
-```
 
 [NestJS Docker](https://blog.logrocket.com/containerized-development-nestjs-docker/)
 
