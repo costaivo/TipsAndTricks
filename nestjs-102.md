@@ -2,6 +2,8 @@
 
 ## TypeOrm Config file 
 
+typeorm.config.ts
+
 ``` typescript
 export const TypeOrmConfig: TypeOrmModuleOptions = {
     type: 'postgres',
