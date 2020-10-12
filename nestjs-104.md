@@ -137,12 +137,14 @@ OR
 
 ### Documenting controllers
 
+Adding API Tags to Controllers
+
 ``` Typescript
 @ApiTags('employee')
 export class EmployeeController {
 }
 ```
-
+Adding API Resonse to Action Methods
 
 ``` Typescript
    @ApiResponse({
@@ -155,6 +157,9 @@ export class EmployeeController {
         return this.employeeService.getEmployees();
     }
 ```
+
+Adding Authentication using `@ApiBearerAuth` decorator for controller
+Adding 403 Forbidden status for all methods in Employee controller
 
 ``` Typescript
 @ApiBearerAuth()
