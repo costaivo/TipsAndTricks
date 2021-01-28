@@ -5,7 +5,7 @@
 
 ## Add color syntax to vim
 ``` cmd
-: syntax on
+:syntax on
 ```
 
 ## Change color scheme for syntax
