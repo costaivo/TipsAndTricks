@@ -1,7 +1,7 @@
 ## Add line number to vim 
 ``` cmd
 :set number
-``
+```
 
 ## Add color syntax to vim
 ``` cmd
