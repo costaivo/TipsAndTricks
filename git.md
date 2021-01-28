@@ -21,4 +21,4 @@ git config --global -e
 
 
 ### Using Multiple Git accounts on same PC
-https://www.youtube.com/watch?v=2MGGJtTH0bQ
+[Video - Multiple Git accounts on same PC](https://www.youtube.com/watch?v=2MGGJtTH0bQ)
