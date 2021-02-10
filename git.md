@@ -19,6 +19,9 @@ git config --global credential.useHttPath true
 git config --global -e
 ```
 
+## Merging two git repos and maintaining history
+[Merging two git repos and maintaining history](https://saintgimp.org/2013/01/22/merging-two-git-repositories-into-one-repository-without-losing-file-history/)
+
 
 ### Using Multiple Git accounts on same PC
 [Video - Multiple Git accounts on same PC](https://www.youtube.com/watch?v=2MGGJtTH0bQ)
