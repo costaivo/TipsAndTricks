@@ -1,0 +1,35 @@
+version: '3'
+services:
+  pgdb:
+    container_name: taskmgmt-postgres
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_DB=taskmgmt
+      - POSTGRES_USER=taskmgmt
+      - POSTGRES_PASSWORD=taskmgmt
+    ports:
+      - "5400:5432"
+    expose:
+      - '5411'
+      # Where our data will be persisted
+    volumes:
+      - postgres-db:/var/lib/postgres
+    networks:
+      - postgres
+# Names our volume
+  pgadmin:
+    container_name: taskmgmt-pgadmin
+    restart: always
+    image: dpage/pgadmin4:latest
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=ivo.costa@creativecapsule.com
+      - PGADMIN_DEFAULT_PASSWORD=taskmgmt
+    ports:
+      - 9091:80
+    networks:
+      - postgres
+volumes:
+  postgres-db:
+networks:
+  postgres:

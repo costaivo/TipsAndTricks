@@ -14,7 +14,7 @@ yarn global add @nestjs/cli
 
 ``` bash 
 # Creating a new application 
-nest new training-tracker-api
+nest new quotes-api
 ```
 
 ## Running the project
@@ -33,17 +33,17 @@ npm start
 
 ### Create new Module
 ``` bash
-nest g module employee
+nest g module quote
 ```
 
 ### Create new Service
 ``` bash
-nest g service employee
+nest g service quote
 ```
 
 ### Create new Controller
 ``` bash
-nest g controller employee
+nest g controller quote
 ```
 
 ## 3rd Party Packages
@@ -59,8 +59,9 @@ yarn add @nestjs/typeorm typeorm pg
 ``` bash 
 yarn add class-validator 
 ```
+### Install transformer
 
-
-
-[NestJS Docker](https://blog.logrocket.com/containerized-development-nestjs-docker/)
+``` bash
+yarn add class-transformer
+```
 

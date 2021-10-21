@@ -57,7 +57,9 @@ npm install express
 
 - Add nodemon package and set the default configuration
 ``` cmd
-	npm i --save-dev nodemon
+	npm install --save-dev nodemon
+	# or use the shortcut
+	npm i -D nodemon
 ```
 
 - Update the `package.json` file, add start:dev script
@@ -87,5 +89,74 @@ npm install express
 
 
 ## Linting your code.
-Linting is very important, so that all developers use a same style guide for developement. So code follows a common standards
+Linting is very important, so that all developers use a same style guide for development. So code follows a common standards
 
+### Installing the packages
+
+- install the package as dev dependencies
+``` cmd 
+	npm i eslint -D
+```
+
+- update the package script
+
+``` json
+	"lint":"eslint"
+```
+
+- configure eslint
+
+``` cmd 
+npm run lint -- -- init
+```
+
+Select the appropriate options based on your project requirements
+
+- Modify the script for lint to start validation
+ "lint": "eslint .",
+ 
+- use the airbnb styleGuide and select json as the file format
+
+### Liniting your code
+- run the below command to check if there are any linting errors
+
+```cmd 
+	npm run lint
+```
+
+- fix the linting errors
+- Add custom rules in `.eslintrc.json` file under **rules section**.
+
+``` json 
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+        "semi": ["error", "never"],
+        "quotes": ["error", "single"]
+    }
+}
+
+```
+### Adding ESLint Extension
+
+- Installing a ESLint extension will give a visual clue to the errors
+ 
+ 
+ 
+ ## Adding Essential npm packages
+ 
+ ### Adding Morgan ,Winston & DotEnv
+ 
+ ``` cmd
+	npm i winston morgan dotenv
+ ```
